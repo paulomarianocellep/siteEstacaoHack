@@ -1,0 +1,48 @@
+/* Folha de estilo por Paulo Mariano */
+
+/* Barra de navegação */
+
+.active{
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.nav-link, .dropdown-item{
+  color: white !important;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: #7952b3;
+  border-radius: 5px;
+  color: white !important;
+}
+
+/* área principal  */
+.bg-imagem {
+  height: 48vw;
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-imagem p{
+  font-size: 4vw; /* vh */
+  text-shadow: 4px 4px 8px black;
+}
+
+/* Estilo agenda */
+#agenda th{
+  font-size: 2vw;
+}
+
+#agenda td{
+  /* 100% / 7 colunas */
+  width: calc(100% / 7);
+  /* 100% / 5 linhas */
+  height: calc(100% / 5);
+}
+
+#agenda td.bg-info{
+  color: white;
+}
